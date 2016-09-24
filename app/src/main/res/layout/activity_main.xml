@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="LENGTH"
+        android:id="@+id/lbutton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onL"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="WEIGHT"
+        android:id="@+id/wbutton"
+        android:layout_below="@+id/lbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onW"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="AREA"
+        android:id="@+id/abutton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onA"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="VOLUME"
+        android:id="@+id/vbutton"
+        android:layout_below="@+id/abutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onV"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="ABOUT"
+        android:id="@+id/abbutton"
+        android:layout_below="@+id/vbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onAb"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

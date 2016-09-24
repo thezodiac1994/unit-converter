@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation = "vertical"
+    tools:context="com.example.the_blue_zodiac.metricunitconverter.weight">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="KG TO POUNDS"
+        android:id="@+id/kg_poundsbutton"
+        android:onClick="onkgpound"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="POUNDS TO KG"
+        android:id="@+id/pounds_kgbutton"
+        android:onClick="onpoundkg"
+        android:layout_below="@+id/kg_poundsbutton"
+        android:layout_alignLeft="@+id/kg_poundsbutton"
+        android:layout_alignStart="@+id/kg_poundsbutton" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="GRAMS TO OUNCES"
+        android:id="@+id/g_ouncesbutton"
+        android:onClick="ongo"
+        android:layout_below="@+id/pounds_kgbutton"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="OUNCES TO GRAMS"
+        android:id="@+id/ounces_gbutton"
+        android:onClick="onog"
+        android:layout_below="@+id/g_ouncesbutton"
+        android:layout_alignLeft="@+id/g_ouncesbutton"
+        android:layout_alignStart="@+id/g_ouncesbutton" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="KG TO TON"
+        android:id="@+id/kg_tonbutton"
+        android:layout_below="@+id/ounces_gbutton"
+        android:layout_alignLeft="@+id/ton_kgbutton"
+        android:layout_alignStart="@+id/ton_kgbutton"
+        android:onClick="onkgton"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="TON TO KG"
+        android:id="@+id/ton_kgbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="ontonkg"
+        />
+</LinearLayout>

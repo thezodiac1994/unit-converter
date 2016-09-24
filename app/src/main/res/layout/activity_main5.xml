@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.the_blue_zodiac.metricunitconverter.area">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Sq FEET TO Sq METERS"
+        android:id="@+id/sqft_sqmbutton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onftm"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/sqft_sqmbutton"
+        android:text="SQ METERS TO SQ FEET"
+        android:id="@+id/sqm_sqfbutton"
+        android:onClick="onsqmsqf"
+         />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="SQ KM TO SQ MILES"
+        android:id="@+id/sqkm_sqmilesbutton"
+        android:layout_below="@+id/sqm_sqftbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onkmmiles" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="SQ MILES TO SQ KM"
+        android:id="@+id/sqm_sqkmbutton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onmilekm" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="ACRES TO HECTARES"
+        android:id="@+id/a_hbutton"
+        android:layout_below="@+id/sqm_sqkmbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onacresh" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="HECTARES TO ACRES"
+        android:id="@+id/h_abutton"
+        android:layout_below="@+id/a_hbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onhacres" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="ACRES TO SQ FEET"
+        android:id="@+id/a_sqfbutton"
+        android:layout_below="@+id/h_abutton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onasqf"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="SQ FEET TO ACRES"
+        android:id="@+id/sqf_abutton"
+        android:layout_below="@+id/a_sqfbutton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onsqfa"
+        />
+
+</LinearLayout>

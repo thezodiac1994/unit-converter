@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.the_blue_zodiac.metricunitconverter.area">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="LITERS TO GALLONS"
+        android:id="@+id/lit_galbutton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onlitgal"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/lit_galbutton"
+        android:text="GALLONS TO LITERS"
+        android:id="@+id/gal_litbutton"
+        android:onClick="ongallit"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="LITERS TO PINTS"
+        android:id="@+id/lit_pintbutton"
+        android:layout_below="@+id/gal_litbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onlitpint" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="PINTS TO LITERS"
+        android:id="@+id/pint_litbutton"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/lit_pintbuttonbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onpintlit" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Cu METERS to Cu FOOT"
+        android:id="@+id/cum_cufbutton"
+        android:layout_below="@+id/pint_litbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="oncumcuf" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Cu FOOT to Cu METERS"
+        android:id="@+id/cuf_cumbutton"
+        android:layout_below="@+id/cum_cufbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="oncufcum" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="LITERS TO QUARTS"
+        android:id="@+id/lit_quartsbutton"
+        android:layout_below="@+id/cuf_cumbutton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onlitquarts"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="QUARTS TO LITERS"
+        android:id="@+id/quarts_litbutton"
+        android:layout_below="@+id/lit_quartsbutton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onquartslit"
+        />
+
+</LinearLayout>
